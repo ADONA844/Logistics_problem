@@ -6,4 +6,5 @@ Key features :
 1. Developed an optimization solution for the Vehicle Routing Problem using genetic algorithms.
 2. Utilized the DEAP library for evolutionary computation and explored it to solve the Vehicle Routing Problem.
 3. Analyzed and solved a standard logistics problem in both production and distribution businesses, showcasing adaptability in applying ML       techniques to diverse real-world scenarios.
-4. Employed Matplotlib for visualizing complex routing solutions, facilitating effective data communication and decision-making.
+4. Created a fitness evaluation function for VRP, demonstrating strong analytical skills in route efficiency and optimization.
+5. Employed Matplotlib for visualizing complex routing solutions, facilitating effective data communication and decision-making.
