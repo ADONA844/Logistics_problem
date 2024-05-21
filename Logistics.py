@@ -25,7 +25,7 @@ def evalVRP(individual):
     total_distance = 0
     distances = []  # Tracking distance traveled by each vehicle for balance calculation
     for i in range(num_vehicles):
-        vehicle_route = [depot] + [locations[individual[j]] for j in range(i, len(individual), num_vehicles)] + [depot] # Calculate total distance traveled by this vehicle
+        vehicle_route = [depot] + [locations[individual[j]] for j in range(i, len(individual), num_vehicles)] + [depot] # Calculating total distance traveled by this vehicle
         vehicle_distance = sum(np.linalg.norm(np.array(vehicle_route[k+1]) - np.array(vehicle_route[k])) for k in range(len(vehicle_route)-1))
         total_distance += vehicle_distance
         distances.append(vehicle_distance)
